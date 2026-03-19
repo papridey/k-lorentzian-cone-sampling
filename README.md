@@ -29,6 +29,17 @@ Running the script reproduces the main diagnostics and plots used in the paper:
 - `src/plotting.py` — trace plots and cross-method histogram/ECDF overlays.
 - `src/scripts/run_spd3_riem_target_mcse.py` — main script reproducing the SPD(3) experiment.
 
+## Output
+Running the script creates a timestamped output directory containing:
+- `results/summary.csv` (acceptance, split-Rhat, ESS/sec)
+- `results/pooled_method_summary_stats.csv` (pooled marginal summaries)
+- `results/rho_proxy.csv` (empirical Poincaré / rho proxy)
+- `results/mcse_zscore_comparison.csv` (MCSE + z-score mean agreement)
+- `plots/` (trace plots + cross-method histogram/ECDF overlays)
+
+## Citation
+If you use this code, please cite the repository (see `CITATION.cff`).
+
 ## Quick start
 ```bash
 python -m venv .venv
