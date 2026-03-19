@@ -42,7 +42,8 @@ If you use this code, please cite the repository (see `CITATION.cff`).
 
 ## Quick start
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 python -m src.scripts.run_spd3_riem_target_mcse
