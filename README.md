@@ -1,9 +1,6 @@
 # Cone-induced geometry-aware sampling on SPD(3)
 
 Code accompanying the manuscript ``Cone-Induced Geometry for Sampling on Cones via $\K$-Lorentzian Polynomials''.  
-This repository implements geometry-aware Metropolis–Hastings samplers on the SPD cone using the affine-invariant metric, and reproduces the diagnostic tables/plots reported in the paper (acceptance, split-\hat{R}, ESS/sec, pooled marginals, MCSE/z-scores, and an empirical Poincaré/\rho proxy).
-
----
 
 This repository contains the reference implementation for the **SPD(3) worked example**:
 two Metropolis–Hastings kernels targeting the same **intrinsic Riemannian law**
