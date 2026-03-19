@@ -3,6 +3,8 @@
 Reference code for the SPD(3) worked example in the manuscript  
 **``Cone-Induced Geometry for Sampling on Cones via K-Lorentzian Polynomials''**.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19105276.svg)](https://doi.org/10.5281/zenodo.19105276)
+
 This repository implements two Metropolis–Hastings kernels that target the same **intrinsic Riemannian law**
 on the SPD cone with the affine-invariant metric:
 
