@@ -1,0 +1,12 @@
+__MACOSX/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.npy
+*.npz
+.env
+venv/
+.venv/
